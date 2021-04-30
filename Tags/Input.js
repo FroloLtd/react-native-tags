@@ -28,6 +28,8 @@ const Input = (props) => {
         underlineColorAndroid="transparent"
         autoCapitalize="none"
         returnKeyType="done"
+        autoCompleteType="off"
+        autoCorrect={false}
         blurOnSubmit={false} 
       />
     </View>
